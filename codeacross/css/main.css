@@ -427,7 +427,11 @@
 		margin-bottom: 1em;
 	}
 
+    #speakers .speaker-img-wrapper {
+        float:left !important;
+        height:222px;
 
+    }
 
 	/********************
 	Challenges
