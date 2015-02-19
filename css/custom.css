@@ -232,7 +232,7 @@ div.video iframe {
 
 .img-container {
   float: left;
-  margin: auto 5px;
+  margin: auto 10px 10px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
