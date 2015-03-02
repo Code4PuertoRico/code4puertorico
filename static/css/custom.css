@@ -169,8 +169,8 @@ body {
 #wrap-intro {
   min-width: 100%;
   background-color: #E1F3FB;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  /*margin-bottom: 50px;
+  padding-bottom: 50px;*/
 }
 
 #intro .left-col, #intro .right-col {
@@ -263,5 +263,7 @@ div.video iframe {
   background: url('../images/sponsors/sanjuan-200px.png') white no-repeat;
 }
 
-
+.code-of-conduct-container {
+  margin-bottom: 25px;
+}
 

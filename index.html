@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is the Puerto Rico brigade, associated to Code for America, code for change...">
-    <meta name="author" content="Imanol Aranzadi">
+    <meta name="author" content="Code 4 Puerto Rico">
 
     <title>Code 4 Puerto Rico</title>
     <link rel="icon" type="image/ico" href="favicon.ico">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="static/css/custom.css" rel="stylesheet">
   </head>
 
   <body>
@@ -30,9 +30,11 @@
               <!--<li><a href="events.html">Events</a></li>-->
               <!--<li><a href="projects.html">Projects</a></li>-->
               <!--<li><a href="people.html">People</a></li>-->
+              <li><a href="code-of-conduct.html">Code of Conduct</a></li>
               <li><a href="resources.html">Resources</a></li>
+              <li><a href="#aboutus">About Us</a></li>
             </ul>
-            <a href="#"><img class="brand-logo" src="images/logo.svg" alt="logo brand"></a>
+            <a href="#"><img class="brand-logo" src="static/images/logo.svg" alt="logo brand"></a>
           </div>
         </div>
       </div>
@@ -63,18 +65,16 @@
         <div class="container">
           <div id='about' class='row'>
             <div class='col-md-7'>
-
-
-              <img id="hacking" src="images/CodeAcross2015.jpg" alt="">
+              <img id="hacking" src="static/images/CodeAcross2015.jpg" alt="">
               <h3><a href="http://www.codeforamerica.org/events/codeacross-2015/">CodeAcross 2015</a></h3>
               <p>Code 4 Puerto Rico second Code Across - it is an anual event held simultaneously across the world - this year we are back planning to have a two day event - Theme ‪#‎shutupandlisten‬ - Let our community tell us their needs and listen to them -Sunday 21 February Youth unHackathon were young minds in Puerto Rico can show us with paper and Crayons how would they like to fix a problem in Puerto Rico with Technology - Sunday February 22 Hackathon/Citizen engagement Day - we will invite all citizens from Puerto Rico to come and talk to us about their daily lives and understand better their needs, gather data and find technological solutions for our own communities - also we will present what our kids have created and if you are up for the challenge and want to "hack it " and make this kid dream come true you are invited - Code 4 Puerto Rico invites you to the challenge and be part of change!!</p>
-             <a class='code-across-btn btn btn-success' href='https://www.eventbrite.com/e/codeacross-unhackathon-puerto-rico-youth-tickets-15662328446'>Register for February 21, 2015 &raquo;</a>
+              <a class='code-across-btn btn btn-success' href='https://www.eventbrite.com/e/codeacross-unhackathon-puerto-rico-youth-tickets-15662328446'>Register for February 21, 2015 &raquo;</a>
               <a class='code-across-btn btn btn-success' href='https://www.eventbrite.com/e/shutupandlisten-hackathon-citizen-engagement-codeacross-puerto-rico-2015-tickets-15662543088'>Register for February 22, 2015 &raquo;</a>
-             <img id="hacking" src="images/thebrigade.jpg" alt="">
+              <img id="hacking" src="static/images/thebrigade.jpg" alt="">
               <h3>Events</h3>
               <p>Check out our events and be part of change!</p>
-              <a class='btn btn-success' href='https://www.facebook.com/groups/code4puertorico/events/'>Here! &raquo;</a>
-              <img id="hacking2" src="images/codecoke.jpg" alt="">
+              <a class='btn btn-success' href='http://www.meetup.com/Code4PuertoRico-Brigade/events/'>Here! &raquo;</a>
+              <img id="hacking2" src="static/images/codecoke.jpg" alt="">
               <h2>#ShutUpandListen</h2>
               <h3>Challenge for 2015</h3>
               <p>Ernesto Sirolli <strong>TED</strong> Speaker inspired this year challenge.  Want to help someone?  Shut up and listen!</p>
@@ -82,13 +82,9 @@
               <!--<p>Follow our story of change!</p>-->
               <!--<a class='btn btn-success' href='href='https://medium.com/@Code4PuertoRico'>Here! &raquo;</a>--> 
             </div>
-
             <div class='col-md-5'>
               <div class='well'>
-                <h4>
-                  <i class='icon-calendar'></i>
-                    Code 4 PR Brigade Hack Night
-                </h4>
+                <h4><i class='icon-calendar'></i>Code 4 PR Brigade Hack Night</h4>
                 <div id="map"></div>
                 <p>
                   6:30 pm every Tuesday<br />
@@ -97,7 +93,7 @@
                 </p>
                 <!-- <a class='btn btn-success' href='http://opengovhacknight.eventbrite.com/'>RSVP &raquo;</a> -->
               </div>
-                 <div class="well">
+              <div class="well">
                 <h4 id='agenda'>Agenda</h4>
                 <dl class='dl-horizontal'>
                   <dt>6:30 pm</dt>
@@ -106,36 +102,24 @@
                   <dd>Welcome, introductions, Announcements and Highlight current projects</dd>
                   <dt>7:30 pm</dt>
                   <dd>Break into groups and hack</dd>
-                   <dt>10:00 pm</dt>
+                  <dt>10:00 pm</dt>
                   <dd>Go Home</dd>
                 </dl>
-
               </div>
 
               <div class='well'>
-                <h4>
-                  Join the discussion
-                </h4>
+                <h4>Join the discussion</h4>
                 <p><i class='icon-envelope'></i> <a href='https://groups.google.com/forum/#!forum/code4puertorico'>Join our Google Group</a> to discuss new and ongoing projects</p>
                 <p><i class='icon-facebook'></i> Join our Facebook <a href='https://www.facebook.com/groups/code4puertorico/'>Group</a> or <a href="https://www.facebook.com/code4puertorico">Fan Page</a> and post cool stuff</p>
                 <p><i class='icon-twitter'></i> Keep up with hack night events and projects on Twitter with the <a href='https://twitter.com/Code4PuertoRico'>#Code4PuertoRico</a> hashtag</p>
-
               </div>
               <div class='well'>
-              <h4>Our Story</h4>
-              <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" href="https://medium.com/@Code4PuertoRico">Code 4 Puerto Rico</a>
+                <h4>Our Story</h4>
+                <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" href="https://medium.com/@Code4PuertoRico">Code 4 Puerto Rico</a>
               </div>
-              
-
-           
-
               <div class='well'>
-                <h3>
-                  <i class='glyphicon glyphicon-bullhorn'></i>
-                  Email updates
-                </h3>
+                <h3><i class='glyphicon glyphicon-bullhorn'></i>Email updates</h3>
                 <!-- Begin MailChimp Signup Form -->
-                
                 <div id="mc_embed_signup">
                   <form action="//code4puertorico.us10.list-manage.com/subscribe/post?u=c45994df1e03cacab192ab95e&amp;id=0f9612931d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
@@ -160,40 +144,28 @@
             <p>Our awesome sponsors keep us going: </p>
             <div class="imgs">
               <a href='http://piloto151.com'>
-                <div class="img-container piloto-img">
-                  <!-- <img src='images/sponsors/pilotoslide.png' alt='Code for America' /> -->
-                </div>
+                <div class="img-container piloto-img"></div>
               </a>
               <a href='http://codeforamerica.com'>
-                <div class="img-container cfa-img">
-                  <!-- <img src='images/sponsors/code-for-america.jpg' alt='Code for America' /> -->
-                </div>
+                <div class="img-container cfa-img"></div>
               </a>
               <a href='http://i-commtech.com'>
-                <div class="img-container icomm-img">
-                  <!-- <img src='images/sponsors/icomm.png' alt='Code for America' /> -->
-                </div>
+                <div class="img-container icomm-img"></div>
               </a>
               </div>
-              <div class="col-md-6 right-col">
               <a href='http://tpipr.com'>
-                <div class="img-container tpi-img">
-                  <!-- <img src='images/sponsors/tpi.jpeg' alt='Code for America' /> -->
-                </div>
+                <div class="img-container tpi-img"></div>
               </a>
               <a href='http://sanjuanciudadpatria.com/'>
-                <div class="img-container sanjuan-img">
-                  <!-- <img src='images/sponsors/sanjuan.jpg' alt='Code for America' /> -->
-                </div>
+                <div class="img-container sanjuan-img"></div>
               </a>
-            </div>
             </div>
           </div>
 
 
           <div class='row'>
             <hr />
-            <h2 id='leadership'>About Us and Contact</h2>
+            <h2 id='leadership'><a name="aboutus">About Us and Contact</a></h2>
             <div class='col-md-6'>
               <p><h4>Code 4 Puerto Rico is organized by:</h4></p>
               <ul class="ul-no-style">
@@ -205,9 +177,6 @@
                 </li>
                 <li>
                   <strong>Co-Captain - </strong><a href='https://www.linkedin.com/in/albertico'> Alberto Col&oacute;n Viera</a>
-                </li>
-                <li>
-                  <strong> Co-Captain - </strong><a href= 'https://www.linkedin.com/profile/view?id=114779580'>Imanol Aranzadi</a>
                 </li>
                 <li>
                    <strong>Storyteller - </strong> <a href= 'http://pr.linkedin.com/pub/pedro-rosario-barbosa/30/736/645/en'> Pedro Rosario Barbosa</a>
@@ -229,6 +198,7 @@
                 <h4>Code of Condunt:</h4>
                 <div>
                   <p>All members and organizers of <strong>Code4PuertoRico</strong> strictly adhere to the <a href="https://github.com/codeforamerica/codeofconduct"> Code of Conduct and Anti-Harassment Policy</a></p>
+                  <p>Members and guest can also report violations to the code of conduct directly to Code for Ameria at the following email: <a href="mailto://safespace@codeforamerica.org">safespace@codeforamerica.org</a></p>
                 </div>
               </p>
               <p>Got questions about the event or have a project to present? Email us at <a href="mailto:code4puertorico@gmail">code4puertorico@gmail.com.</a></p>
@@ -248,10 +218,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/analytics_lib.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/analytics_lib.js"></script>
     <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
-    <script src="js/app.js"></script>
+    <script src="static/js/app.js"></script>
 
   </body>
 </html>
