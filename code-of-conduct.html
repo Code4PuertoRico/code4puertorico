@@ -38,11 +38,13 @@
     </div>
     <div id="wrap-intro">
       <div class="container">
-        <p>You can contribute to this code fo conduct 
-          <a href="https://github.com/Code4PuertoRico/codeofconduct/blob/master/README_es.md">here</a>.
-          An English version of will be posted soon.
-        </p>
-        <div class="code-of-conduct-container" class="col-md-12"></div>
+        <p>You can contribute to this code fo conduct&nbsp;<a href="https://github.com/Code4PuertoRico/codeofconduct/blob/master/README_es.md">here</a>.</p>
+        <ul class="nav nav-tabs nav-justified black-text">
+          <li id="spanish-version" role="presentation" class="active"><a href="#spanish-version">Versión en español</a></li>
+          <li id="english-version" role="presentation"><a href="#english-version">English Version</a></li>
+        </ul>
+        <div class="code-of-conduct-container-es" class="col-md-12"></div>
+        <div class="code-of-conduct-container-en" class="col-md-12"></div>
       </div>
     </div>
     <div id="footer">
@@ -60,10 +62,30 @@
     <script src="static/js/markdown.min.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function() {
+        $('.code-of-conduct-container-es').show()
+        $('.code-of-conduct-container-en').hide()
+        
         $.get('static/code-of-conduct-es.md', function(data) {
           html_content = markdown.toHTML(data);
-          $(".code-of-conduct-container").html(html_content);
-        })
+          $(".code-of-conduct-container-es").html(html_content);
+        });
+        $.get('static/code-of-conduct-en.md', function(data) {
+          html_content = markdown.toHTML(data);
+          $(".code-of-conduct-container-en").html(html_content);
+        });
+
+        $("#spanish-version").click(function() {
+          $(this).addClass('active');
+          $('#english-version').removeClass('active')
+          $('.code-of-conduct-container-es').show()
+          $('.code-of-conduct-container-en').hide()
+        });
+        $("#english-version").click(function() {
+          $(this).addClass('active');
+          $('#spanish-version').removeClass('active')
+          $('.code-of-conduct-container-en').show()
+          $('.code-of-conduct-container-es').hide()
+        });
       });
     </script>
   </body>

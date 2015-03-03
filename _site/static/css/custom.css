@@ -267,3 +267,11 @@ div.video iframe {
   margin-bottom: 25px;
 }
 
+/* changes the font color for the nav*/
+.black-text > li > a {
+    color:  #000;
+}
+
+.black-text > li > a:hover{
+    color:  #fff;
+}
